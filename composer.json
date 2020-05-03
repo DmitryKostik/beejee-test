@@ -1,0 +1,15 @@
+{
+    "name":"dmitrykostik/beejee-test",
+    "description":"---",
+    "type":"project",
+    "require": {
+        "illuminate/database": "7.6.2"
+    },
+    "autoload": {
+        "psr-4" : {
+            "controllers\\": "application/controllers/",
+            "models\\": "application/models/",
+            "core\\": "application/core/"
+        }
+    }
+}
